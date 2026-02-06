@@ -18,9 +18,21 @@ The main objective of this project is to evaluate whether quantized LLMs can gen
 - `data/`: Synthetic datasets generated during the experiments
 - `results/`: Evaluation results and metrics derived from the generated datasets
 
+### Notebooks Overview
+
+- `01_model_selection.ipynb`: Selection and analysis of quantized LLMs under hardware constraints.
+- `02_dataset_generation.ipynb`: Generation of the synthetic text dataset using the selected model.
+- `03_dataset_evaluation.ipynb`: Evaluation of the generated dataset using qualitative and quantitative metrics.
+
 ### Dataset Description
 
 The generated synthetic dataset is provided in Excel format and contains the outputs produced during Phase 2 of the project. Each row corresponds to a generated text instance along with its associated attributes used during evaluation.
+
+### Results Overview
+
+This folder contains the results obtained during Phase 3 of the project.
+
+The evaluation focuses on the quality of the generated synthetic dataset, including qualitative analysis and quantitative metrics derived from the experimental setup.
 
 ## Technologies
 - Python
