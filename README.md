@@ -11,11 +11,12 @@ The main objective of this project is to evaluate whether quantized LLMs can gen
 - Analysis of memory and computational constraints
 
 ## Repository Structure
-- `data/`: datasets (raw and generated)
-- `prompts/`: prompt templates used in experiments
-- `src/`: generation and evaluation scripts
-- `results/`: generated outputs and metrics
-- `experiments/`: experiment logs and configurations
+- `notebooks/`: Jupyter notebooks corresponding to each phase of the methodology:
+  - Phase 1: Quantized LLM selection
+  - Phase 2: Synthetic dataset generation
+  - Phase 3: Dataset evaluation
+- `data/`: Synthetic datasets generated during the experiments
+- `results/`: Evaluation results and metrics derived from the generated datasets
 
 ## Technologies
 - Python
