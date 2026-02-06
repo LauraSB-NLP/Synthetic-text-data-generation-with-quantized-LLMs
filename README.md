@@ -18,6 +18,10 @@ The main objective of this project is to evaluate whether quantized LLMs can gen
 - `data/`: Synthetic datasets generated during the experiments
 - `results/`: Evaluation results and metrics derived from the generated datasets
 
+### Dataset Description
+
+The generated synthetic dataset is provided in Excel format and contains the outputs produced during Phase 2 of the project. Each row corresponds to a generated text instance along with its associated attributes used during evaluation.
+
 ## Technologies
 - Python
 - Quantized LLMs
